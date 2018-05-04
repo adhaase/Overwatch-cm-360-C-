@@ -4,15 +4,22 @@
 #include <unordered_map>
 #include <cmath>
 #include <cstdlib>
+#include <windows.h> // WinApi header
 
 #include "menu.h"
+#include "calculate.h"
 
 int main() {
 	
-	header();
-	int choice = callMenu();
-	getUserChoice(choice);
+	UI user;
+	user.header();
+	int choice = user.callMenu();
+	user.getUserChoice(choice);
 
-	system("pause");
+	PlayerInfo pi;
+	ConvertToCm360 cm;
+	UserPrompt up;
+	cm.output(user, up, pi, cm);
+
 	return 0;
 }
