@@ -31,7 +31,7 @@ int UI::callMenu() {
 	std::cout << "------------------------------------------\n\n";
 	SetConsoleTextAttribute(hConsole, 15);
 	int menuChoice;
-	std::cout << "Please choose a menu option (the corresponding intger, no punctuation): ";
+	std::cout << "Please choose a menu option (the corresponding integer, no punctuation): ";
 	std::cin >> menuChoice;
 	std::cout << "\n";
 	return menuChoice;
