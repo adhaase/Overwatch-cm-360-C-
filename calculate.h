@@ -1,8 +1,10 @@
 #pragma once
 
 struct PlayerInfo {
+	char current;
 	int getPlayerDPI();
 	double getPlayerSens();
+	double getAlternateCm();
 };
 
 struct UserPrompt {
@@ -15,6 +17,7 @@ struct ConvertToCm360 {
 	void output(UI& ui, UserPrompt& up, PlayerInfo& pi, ConvertToCm360& cm);
 };
 
-struct ConvertToSensitivity {
-
+struct SensitivityEqualizer {
+	double convert(int dpi, double cmResult);
+	void output(UI& ui, UserPrompt& up, PlayerInfo& pi, ConvertToCm360& cm);
 };

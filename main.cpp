@@ -19,7 +19,6 @@ int main() {
 	PlayerInfo pi;
 	ConvertToCm360 cm;
 	UserPrompt up;
-	cm.output(user, up, pi, cm);
 
 	return 0;
 }
