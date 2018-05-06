@@ -3,7 +3,7 @@ A C++ rendition of my HTML/JS Overwatch cm/360 webapp, utilizing the Qt framewor
 
 ## Note the current version in this repo is a base implementation WITHOUT the Qt framework. The Qt version will be up soon!
 
-For now, you can run this application (version 1 just runs in the console) by downloading the executable .exe file in this repository. **Your device may provide a warning upon trying to open the executable. Don't worry, the file is safe to open!**
+For now, you can run this application (version 0.1 just runs in the console) by downloading the executable .exe file in this repository. **Your device may provide a warning upon trying to open the executable. Don't worry, the file is safe to open!**
 
 ### The initial interface looks like this:
 ![version 1 - interface](https://user-images.githubusercontent.com/9776844/39614661-87a04100-4f3f-11e8-92ae-d5d3e5ac343f.PNG)
