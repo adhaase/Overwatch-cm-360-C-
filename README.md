@@ -1,7 +1,7 @@
 # Overwatch App: cm/360° converter and sensitivity equalizer (C++ version)
 A C++ rendition of my HTML/JS Overwatch cm/360 webapp, utilizing the Qt framework.
 
-## Note the current version in this repo is a base implementation WITHOUT the Qt framework. The Qt version will be up soon!
+## Note the current version in this repo is a base implementation WITHOUT the Qt framework. The Qt version is being worked on!
 
 For now, you can run this application (version 0.1 just runs in the console) by downloading the executable .exe file in this repository. **Your device may provide a warning upon trying to open the executable. Don't worry, the file is safe to open!**
 
